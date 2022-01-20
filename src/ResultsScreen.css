@@ -1,0 +1,34 @@
+.results-screen-container {
+    height: 100vh;
+}
+
+.results-screen-row-1 {
+    height: 15%;
+}
+
+.results-screen-row-1-col-1 {
+    height: 100%;
+    max-width: 10%;
+}
+
+.results-screen-row-1-col-2 {
+    height: 100%;
+    max-width: 80%;
+}
+
+.results-screen-row-1-col-3 {
+    height: 100%;
+    max-width: 10%;
+}
+
+.home-icon {
+    transform: scale(.35);
+    cursor: pointer;
+    height: 100%;
+}
+
+.download-icon {
+    transform: scale(.35);
+    cursor: pointer;
+    height: 100%;
+}

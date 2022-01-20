@@ -1,0 +1,132 @@
+.main-screen-container {
+    height: 100vh;
+}
+
+.main-screen-row-1 {
+    height: 15%;
+}
+
+.main-screen-row-2 {
+    height: 70%;
+}
+
+.main-screen-row-3 {
+    height: 15%;
+}
+
+.main-screen-row-2-col-1 {
+    height: 100%;
+    max-width: 20%;
+}
+
+.main-screen-row-2-col-2 {
+    height: 100%;
+    max-width: 60%;
+}
+
+.main-screen-row-2-col-3 {
+    height: 100%;
+    max-width: 20%;
+}
+
+.main-screen-row-2-col-1-row-1 {
+    height: 50%;
+}
+
+.main-screen-row-2-col-1-row-2 {
+    height: 50%;
+}
+
+.main-screen-row-2-col-3-row-1 {
+    height: 50%;
+}
+
+.main-screen-row-2-col-3-row-2 {
+    height: 50%;
+}
+
+.main-screen-row-3-col-1 {
+    height: 100%;
+    max-width: 50%;
+}
+
+.main-screen-row-3-col-2 {
+    height: 100%;
+    max-width: 50%;
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+}
+
+.inputImage {
+    display: none;
+}
+
+.visionImage {
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0 20px;
+}
+
+.start-capturing-button-container {
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.cancel-calibration-button {
+    width: 40%;
+    height: 40%;
+}
+
+.capture-image-button {
+    width: 40%;
+    height: 40%;
+}
+
+.finish-calibration-button {
+    width: 40%;
+    height: 40%;
+}
+
+.button-disabled {
+    pointer-events: none;
+}
+
+.pictures-taken-container {
+    padding-top: 40%;
+}
+
+.calibration-error-container {
+    padding-top: 30%;
+}
+
+.instructions-icon {
+    transform: scale(.35);
+    cursor: pointer;
+    height: 100%;
+}
+
+.download-circular-button-icon {
+    transform: scale(.30);
+    cursor: pointer;
+    height: 100%;
+}
+
+.charuco-image {
+    display: none;
+}
+
+.loader-row {
+    height: 100%;
+}
+
+.camera-flashing-gif {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
