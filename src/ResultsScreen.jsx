@@ -118,7 +118,7 @@ function ResultsScreen(props) {
                 cameraMatrix[6] + ' , ' + cameraMatrix[7] + ' , ' + cameraMatrix[8] + ' ]\n\n';
         }
         if (distCoeffs) {
-            data += '* Coeficientes de Distorción:\n' +
+            data += '* Coeficientes de Distorsión:\n' +
                 '[ ' + distCoeffs[0] + ' ,\n ' +
                 distCoeffs[1] + ' ,\n ' +
                 distCoeffs[2] + ' ,\n ' +
@@ -206,7 +206,7 @@ function ResultsScreen(props) {
                         {displayDataCard('Matriz de Cámara', displayCameraMatrix())}
                     </Col>
                     <Col className="fill-full-space d-flex justify-content-center align-items-center">
-                        {displayDataCard('Coeficientes de Distorción', displayDistCoeffs())}
+                        {displayDataCard('Coeficientes de Distorsión', displayDistCoeffs())}
                     </Col>
                 </Row>
                 <Row className="mb-5">
